@@ -97,7 +97,7 @@ document.addEventListener('click', ({target}) => {
     let id = target.id;
     localStorage.setItem('id_card', id)
     //Me desplazo hacia mi pagina detalles del producto
-    window.location.href = "/frontend/pages/details.html"
+    window.location.href = "./frontend/pages/details.html"
     
     //Realizo un filter para filtrar mis productos por categoria, para ello
     //utilizo el evento click que escucha al DOM, en su atributo target
