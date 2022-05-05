@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 13",
+      "description": "Iphone 13 - 64GB.",
+      "price": 16.33,
+      "img": "/frontend/image/iphone13.jpg",
+      "category": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Iphone 11 pro",
+      "description": "Iphone 11 pro - 8GB",
+      "price": 8.98,
+      "img": "/frontend/image/iphone2.webp",
+      "category": "Apple"
+    },
+    {
+      "id": 3,
+      "name": "Iphone 12",
+      "description": "Iphone 12 - 16GB",
+      "price": 8.98,
+      "img": "/frontend/image/iphone3.webp",
+      "category": "Apple"
+    },
+    {
+      "id": 4,
+      "name": "Iphone SE",
+      "description": "Iphone SE - 8GB",
+      "price": 8.98,
+      "img": "/frontend/image/iphone4.webp",
+      "category": "Apple"
+    },
+    {
+      "id": 5,
+      "name": "Iphone 7 Plus",
+      "description": "Iphone 7 Plus - 4GB",
+      "price": 8.98,
+      "img": "/frontend/image/iphone5.webp",
+      "category": "Apple"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy A51",
+      "description": "Samsung Galaxy A51 - 8GB",
+      "price": 8.98,
+      "img": "/frontend/image/samsung1.webp",
+      "category": "Android"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy A20",
+      "description": "Samsung Galaxy A20 - 16GB",
+      "price": 8.98,
+      "img": "/frontend/image/samsung2.webp",
+      "category": "Android"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy Note",
+      "description": "Samsung Galaxy Note - 24GB",
+      "price": 8.98,
+      "img": "/frontend/image/samsung3.webp",
+      "category": "Android"
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy S22",
+      "description": "Samsung Galaxy S22 - 16GB",
+      "price": 8.98,
+      "img": "/frontend/image/samsung4.webp",
+      "category": "Android"
+    },
+    {
+      "id": 10,
+      "name": "Samsung Galaxy A03",
+      "description": "Samsung Galaxy A03 - 24GB",
+      "price": 8.98,
+      "img": "/frontend/image/samsung5.webp",
+      "category": "Android"
+    },
+    {
+      "id": 11,
+      "name": "Macbook Air",
+      "description": "Macbook Air de 13 pulgadas",
+      "price": 8.98,
+      "img": "/frontend/image/pc1.webp",
+      "category": "Portatiles"
+    },
+    {
+      "id": 12,
+      "name": "Lenovo Laptop",
+      "description": "Lenovo Laptop - Gamer Legion 7i",
+      "price": 8.98,
+      "img": "/frontend/image/pc2.jpeg",
+      "category": "Portatiles"
+    },
+    {
+      "id": 13,
+      "name": "Huawei MateBook",
+      "description": "Huawei MateBook D 15 Intel Core i3",
+      "price": 8.98,
+      "img": "/frontend/image/pc4.png",
+      "category": "Portatiles"
+    },
+    {
+      "id": 14,
+      "name": "Portatil Asus",
+      "description": "Portatil Asus Vivobook 14 pulgadas Intel core i5",
+      "price": 8.98,
+      "img": "/frontend/image/pc5.png",
+      "category": "Portatiles"
+    },
+    {
+      "id": 15,
+      "name": "Portatil HP",
+      "description": "Portatil HP 254 G7 Amd 3020e 8GB",
+      "price": 8.98,
+      "img": "/frontend/image/pc2.jpeg",
+      "category": "Apple"
+    },
+    {
+      "name": "Samsung Galaxy Z - Flip 3",
+      "description": "Samsung Galaxy Z - Flip 3 - 128GB color azul",
+      "price": "120000",
+      "img": "https://falabella.scene7.com/is/image/FalabellaCO/18847345_1?wid=800&hei=800&qlt=70",
+      "category": "Android",
+      "id": 16
+    }
+  ],
+  "carrito": [],
+  "experiencias": []
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/frontend/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/931a91a8cb.js" crossorigin="anonymous"></script>
+    <title>Phone Store</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/417/385/png-transparent-iphone-app-store-computer-icons-hollywood-sign-blue-electronics-text.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Seccion header -->
+
+    <header class="header">
+      <a href="#" class="logo"><i class="fa-solid fa-shop"></i> Phone Store</a>
+
+      <nav class="navbar">
+        <a href="/index.html">Home</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#productos">Productos</a>
+        <a href="#experiencias">Experiencias</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart carrito" id="cart-btn"></div>
+        <div class="fa-solid fa-circle-plus" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="contenedor-cart"></div>
+        
+        <div class="total"> total : $0</div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+      <form action="" class="login-form" id="formulario">
+        <h3>Agregar Producto</h3>
+        <input type="text" placeholder="nombre producto" id="nombre" class="box" />
+        <input type="number" placeholder="precio" id="precio" class="box" />
+        <input type="text" placeholder="URL imagen" id="URL" class="box" />
+        <input type="text" placeholder="Categoria" id="categorie" class="box" />
+        <textarea placeholder="breve descripcion del producto" id="descripcion" class="box"></textarea>
+        <input type="submit" value="Agregar producto" class="btn" />
+      </form>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>La mejor tienda virtual <span>¡Phone Store!</span></h3>
+        <p>
+          Nuestras tiendas, oficinas y centros de datos son completamente neutros en emisiones de carbono.
+          Y para el 2030, todos nuestros productos, así como tu huella de carbono al usarlos, también lo serán.
+        </p>
+        <a href="#" id="boton" class="btn">shop now</a>
+      </div>
+    </section>
+    <!-- fin seccion home -->
+
+
+    <!-- Seccion categorias  -->
+    <section class="features" id="categorias">
+      <h1 class="heading">Nuestras <span>Categorias</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./frontend/image/pc5.png" alt="" />
+          <h3>Portatiles</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            earum!
+          </p>
+          <a href="#productos" id="Portatiles" class="btn categorias">Ver mas</a>
+        </div>
+
+        <div class="box">
+          <img src="./frontend/image/iphone5.webp" alt="" />
+          <h3>Apple</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            earum!
+          </p>
+          <a href="#productos" id="Apple" class="btn categorias"> ver mas</a>
+        </div>
+
+        <div class="box">
+          <img src="./frontend/image/samsung3.webp" alt="" />
+          <h3>Samsung</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            earum!
+          </p>
+          <a href="#productos" id="Android" class="btn categorias">Ver mas</a>
+        </div>
+      </div>
+    </section>
+    <!-- fin seccion categorias -->
+
+
+    <!-- Seccio productos  -->
+    <section class="products" id="productos">
+      <h1 class="heading">Nuestros <span>Productos</span></h1>
+      <div class="container">
+      </div>
+    </section>
+    <!-- Fin seccion productos -->
+
+
+
+    <!-- Seccion Experiencias -->
+    <section class="review" id="experiencias">
+      <h1 class="heading"><span>Experiencias</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="/frontend/image/pic-1.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./frontend/image/pic-2.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./frontend/image/pic-3.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./frontend/image/pic-4.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+              sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin seccion experiencias-->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./frontend/scripts/app.js" type="module"></script>
+  </body>
+</html>
